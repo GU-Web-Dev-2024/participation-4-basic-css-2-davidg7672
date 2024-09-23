@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Fall Weather Forecast</title>
+        <!-- Link to external stylesheet -->
+        <!-- forecast class is used here -->
+        <link rel="stylesheet" href="./styles.css" />
 
-<head>
-    <title>Fall Weather Forecast</title>
-    <!-- Link to external stylesheet -->
+        <!-- embedded styles -->
+        <style>
+            .day {
+                color: blue;
+                text-align: right;
+            }
+        </style>
+    </head>
 
+    <body>
+        <!-- Inline-styling -->
+        <h1 style="color: brown; text-align: center">Fall Weather Forecast</h1>
+        <div class="forecast">
+            <p class="day">Monday: Sunny, 60°F</p>
+            <p class="day">Tuesday: Cloudy, 55°F</p>
+            <p class="day">Wednesday: Rainy, 50°F</p>
+        </div>
 
-    <!-- Embedded styles will go here -->
-
-</head>
-
-<body>
-    <h1>Fall Weather Forecast</h1>
-    <div class="forecast">
-        <p class="day">Monday: Sunny, 60°F</p>
-        <p class="day">Tuesday: Cloudy, 55°F</p>
-        <p class="day">Wednesday: Rainy, 50°F</p>
-    </div>
-
-    <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
-</body>
-
+        <!-- More inline styling -->
+        <footer style="text-align: center">Last updated: September 22</footer>
+    </body>
 </html>

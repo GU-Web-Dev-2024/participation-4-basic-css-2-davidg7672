@@ -1,0 +1,7 @@
+.forecast {
+    background-color: aquamarine;
+}
+
+.forecast:hover {
+    background-color: yellowgreen;
+}
