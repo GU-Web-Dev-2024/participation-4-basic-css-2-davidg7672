@@ -1,5 +1,6 @@
 .forecast {
-    background-color: aquamarine;
+    background-color: olivedrab;
+    padding: 50px;
 }
 
 .forecast:hover {
